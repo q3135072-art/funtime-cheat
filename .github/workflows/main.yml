@@ -21,7 +21,7 @@ jobs:
     - name: Build with Gradle
       run: gradle build --no-daemon
     - name: Upload Artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: funtime-cheat
         path: build/libs/*.jar
