@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "funtimecheat",
+  "version": "${version}",
+  "name": "FunTime Cheat",
+  "description": "Vanta custom cheat",
+  "authors": ["Vanta"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.vanta.FunTimeCheat"]
+  },
+  "mixins": [
+    "funtimecheat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
