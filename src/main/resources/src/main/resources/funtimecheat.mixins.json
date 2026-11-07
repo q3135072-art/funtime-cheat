@@ -6,6 +6,9 @@
   "mixins": [
     "PlayerReachMixin"
   ],
+  "client": [
+    "PlayerReachMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
